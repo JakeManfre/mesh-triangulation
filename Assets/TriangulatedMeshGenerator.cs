@@ -33,10 +33,12 @@ public class TriangulatedMeshGenerator : MonoBehaviour
             new(-1, 0, 4), // 1
             new(0, 0, -1), // 2
             new(2, 0, 2),  // 3
+
+            new(2, 0, 1),  // 5
+            
             new(4, 0, -1), // 4
             
-            // new(2, 0, 1),  // 5
-            // new(3, 0, -1),
+             //new(3, 0, -1),
 
             new(2, 0, -3), // 6 - colinear point with vertices 2 and 8
             new(-3, 0, 0), // 7
